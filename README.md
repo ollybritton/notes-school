@@ -4,6 +4,8 @@ These are my GCSE and A-level notes that I take using [`go-albatross`](https://g
 ## Layout
 See the entry [`A-Level Note Taking System`](notes/school/a-level/general/transition/note-taking/entry.md).
 
+For an example of a decent entry, see [`Computing - Logic Gates`](notes/school/a-level/computing/topics/logic-gates/entry.md).
+
 ## Why are there so many question marks??
 These are flashcards. There's a program within [`go-albatross`](https://github.com/albatross-org/go-albatross) called `ankify` which takes notes written in this format and outputs a TSV file which can be imported into [Anki](https://apps.ankiweb.net/).
 
@@ -36,7 +38,7 @@ Anki's great because it means you're constantly reviewing everything that you le
 These specify a region of [Latex math mode](https://www.overleaf.com/learn/latex/display_style_in_math_mode) which make all the maths look pretty when viewing them in Anki.
 
 ## Why are there so many `entry.md` files??
-That's how [Albatross](https://github.com/albatross-org/go-albatross) has everything laid out.  
+That's how [Albatross](https://github.com/albatross-org/go-albatross) has everything laid out. 
 
 ## Why is everything so wrong??
 There's a lot of incorrect notes. When I notice something is incorrect, I'll update the Anki flashcard and then most of the time to actually forget to update the note. Maybe one day it will actually be up to date.
@@ -69,4 +71,4 @@ grep -i -r 'mrs secret person' notes/
 # ...
 ```
 
-So entries that I've marked as private don't get included.
+So entries that I've marked as private don't get included. The actual code which builds the `notes/` folder from the Albatross store is [here](https://github.com/albatross-org/go-albatross/blob/master/cmd/albatross/cmd/action_export_store.go).
