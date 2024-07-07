@@ -1,4 +1,6 @@
 # `notes-school`
+> **Note added 2024-07-07:** A modern version of this can be found on [my website](https://ollybritton.com).
+
 These are my GCSE and A-level notes that I take using [`go-albatross`](https://github.com/albatross-org/go-albatross). It's a filtered export of a larger Albatross store. The actual set of notes are version controlled, this is just a 
 
 ## Layout
